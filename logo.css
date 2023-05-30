@@ -1,0 +1,139 @@
+body {
+    background-color: #0033CC;
+}
+
+.main_container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mediator_container {
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mediator_light {
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: rotate(30deg); */
+    z-index: index 1;
+    
+}
+
+.mediator_light_first {
+    content:"";
+    position:absolute;
+    width:  100px;
+    height: 5px;
+    background-color: rgb(0,195,255);
+    border-radius: 115px;
+    box-shadow: 0 0 0 50px rgb(0,195,255);
+}
+
+.mediator_light_second {
+    content:"";
+    position:absolute;
+    width:  100px;
+    height: 5px;
+    background-color: rgb(0,195,255);
+    border-radius: 115px;
+    box-shadow: 0 0 0 50px rgb(0, 195, 255);
+    transform:rotate(60deg);
+    top:-43px;
+    left: -25px;
+}
+
+.mediator_light_third {
+    content:"";
+    position:absolute;
+    width:  100px;
+    height: 5px;
+    background-color: rgb(0,195,255);
+    border-radius: 115px;
+    box-shadow: 0 0 0 50px rgb(0, 195, 255);
+    transform:rotate(-60deg);
+    top:-44px;
+    left: -74px;
+}
+
+.mediator_dark {
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(20deg);
+    z-index: index 2;
+    
+}
+
+.mediator_dark_first {
+    content:"";
+    position:absolute;
+    width:  100px;
+    height: 5px;
+    background-color: rgb(0,16,49);
+    border-radius: 115px;
+    box-shadow: 0 0 0 50px rgb(0,16,49);
+}
+
+.mediator_dark_second {
+    content:"";
+    position:relative;
+    width:  100px;
+    height: 5px;
+    background-color: rgb(0,16,49);
+    border-radius: 115px;
+    box-shadow: 0 0 0 50px rgb(0, 16, 49);
+    transform:rotate(60deg);
+    top: -43px;
+    left: 75px;
+}
+
+.mediator_dark_third {
+    content:"";
+    position:relative;
+    width:  100px;
+    height: 5px;
+    background-color: rgb(0,16,49);
+    border-radius: 115px;
+    box-shadow: 0 0 0 50px rgb(0, 16, 49);
+    transform:rotate(-60deg);
+    top:-44px;
+    left: -74px;
+}
+
+/* .mediator_second {
+    position:absolute;
+    width:280px;
+    height: 280px;
+    background-color: rgb(0,16,49);
+    border-radius: 60% 40% 20% 80% / 54% 80% 20% 46%;
+    border-radius: 60% 50% 30% 80% / 55% 80% 30% 60%; // первый
+    border-radius: 60% 50% 30% 80% / 55% 80% 30% 60%;//  второй
+    transform: rotate(-170deg); 
+} */
+
+.jet_container {
+}
+.jet_first {
+}
+.jet_second {
+}
+.jet_third {
+}
+
+.lines_container {
+}
+.line_first {
+}
+.line_second {
+}
+.line_third {
+}
