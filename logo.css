@@ -11,7 +11,6 @@ body {
 }
 
 .mediator_container {
-    width:100vw;
     height: 100vh;
     display:flex;
     justify-content: center;
@@ -24,7 +23,8 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-    transform: rotate(20deg);   
+    transform: rotate(20deg);
+      
 }
 
 .mediator_light_first {
@@ -69,6 +69,7 @@ body {
     justify-content: center;
     align-items: center;
     transform:rotate(30deg);
+    
 }
 
 .mediator_dark_first {
@@ -120,8 +121,10 @@ body {
 
 .jet_container {
     display:flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    height: 100vh;
+    transform: skew(-20deg);
 }
 .jet_j {
     position: absolute;
@@ -134,7 +137,7 @@ body {
     width:6px;
     height: 5px;
     position: relative;
-    top: 5px;
+    top: 6px;
     left: 0px;
     border-top: 3px solid white;
 }
@@ -169,7 +172,7 @@ body {
 width: 6px;
 height: 5px;
 position: relative;
-top: 10px;
+top: 9px;
 left: 20px;
 border-top: 3px solid white;
 border-right: 3px solid white;
@@ -186,14 +189,14 @@ border-radius: 0 20px 0 0;
     border-top: 3px solid white;
     border-left: 3px solid white;
     border-bottom: 3px solid white;
-    border-radius: 20px 0 0 20px;
+    border-radius: 10px 0 0 10px;
 }
 
 .jet_e_third {
     width: 13px;
     height: 6px;
     position: relative;
-    top: -10px;
+    top: -9px;
     left: 19px;
     border-bottom:3px solid white;
     
@@ -222,7 +225,7 @@ border-radius: 0 20px 0 0;
     height: 20px;
     position: relative;
     top: 0px;
-    left: 0px;
+    left: -1px;
     border-top: 3px solid white;
     
 }
