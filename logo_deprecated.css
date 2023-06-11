@@ -146,3 +146,14 @@ transform: rotate(60deg);
     width: 40px;
     border-right: 5px solid grey;
 }
+
+/* .mediator_second {
+    position:absolute;
+    width:280px;
+    height: 280px;
+    background-color: rgb(0,16,49);
+    border-radius: 60% 40% 20% 80% / 54% 80% 20% 46%;
+    border-radius: 60% 50% 30% 80% / 55% 80% 30% 60%; // первый
+    border-radius: 60% 50% 30% 80% / 55% 80% 30% 60%;//  второй
+    transform: rotate(-170deg); 
+} */
