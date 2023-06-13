@@ -1,19 +1,31 @@
 body {
     background-color: #0033CC;
+    height: 100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main_container {
-    height: 100vh;
+    height: 280px;
+    width: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .mediator_container {
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+.mediator_container:hover {
+    filter: drop-shadow(0px 0px 15px rgb(0, 195, 255));
+    transition: 0.7s;
 }
 
 .mediator_light {
@@ -107,7 +119,7 @@ body {
 .jet_container {
     position:relative;
     top:-290px;
-    left:-165px;
+    left:-270px;
     transform: skew(-20deg) scale(1.1);
 }
 
