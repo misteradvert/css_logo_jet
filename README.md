@@ -16,4 +16,4 @@ To run the project locally, please follow these steps:
 
 ## 📝 License
 
-This project is licensed under the Copyright © 2023 Ivanov Ivan.
+This project is licensed under the Copyright © 2023 Ivan Ivanov.
